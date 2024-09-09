@@ -16,7 +16,7 @@ jobs:
       - name: Check fork
         if: github.event.repository.fork == false
         run: |
-          echo "This workflow must run on your fork"
+          echo "This workflow must run on your fork?"
           exit 1
 
       - name: Mask Input
