@@ -19,7 +19,7 @@ jobs:
       - name: Check fork
         if: github.event.repository.fork == true
         run: |
-          echo "This workflow must run on the parent repository"
+          echo "This workflow must run on the parent repository?"
           exit 1
       - name: open-pull-request
         uses: fjogeleit/http-request-action@v1
